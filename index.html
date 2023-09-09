@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>HTML&CSS 実践</title>
+    <link rel="stylesheet" href="css/reset.css"> <!-- 優先度低い -->
+    <link rel="stylesheet" href="css/style.css"> <!-- 優先度高い -->
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header-wrap">
+        <div class="header-wrap__img">
+          <a href="#">
+            <img src="img/logo.png" alt="ロゴ画像">
+          </a>
+        </div>
+
+        <nav class="header-wrap__nav">
+          <ul class="header-wrap__nav__list">
+            <li class="header-wrap__nav__list__item">
+              <a href="#news">新着情報</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#about">私たちについて</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#service">事業内容</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#works">制作事例</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#voice">受講生の声</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#reasons">選ばれる理由</a>
+            </li>
+            <li class="header-wrap__nav__list__item__contact">
+              <a href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="top" id="top">
+        <div class="top-wrap __bg">
+          <h1 class="f-ttl">
+            全ての人のキャリアに<br>
+            スキルで稼ぐという選択肢を
+          </h1>
+        </div>
+      </section>
+      
+      <section class="news" id="news">
+        <div class="news-wrap __inner">
+          <div class="news-wrap__ttl">
+            <h2 class="s-ttl__1">
+              <span>新着情報</span>
+              News
+            </h2>
+            </div>
+          <div class="news-wrap__con">
+            <ul class="news-wrap__con__list">
+              <li class="news-wrap__con__list__item">
+                <p class="news-wrap__con__list__item__date">2023.01.01</p>
+                <p class="news-wrap__con__list__item__cate">TOPICS</p>
+                <p class="news-wrap__con__list__item__head">WithCode無料体験コース開講中！</p>
+              </li>
+              <li class="news-wrap__con__list__item">
+                <p class="news-wrap__con__list__item__date">2023.01.02</p>
+                <p class="news-wrap__con__list__item__cate">TOPICS</p>
+                <p class="news-wrap__con__list__item__head">WithCode申込は明日まで！</p>
+              </li>
+              <li class="news-wrap__con__list__item">
+                <p class="news-wrap__con__list__item__date">2023.01.03</p>
+                <p class="news-wrap__con__list__item__cate">TOPICS</p>
+                <p class="news-wrap__con__list__item__head">WithCode無料相談会実施中！</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-wrap __inner">
+          <div class="about-wrap__img">
+            <img src="img/about-img.png" alt="Withcode紹介画像">
+          </div>
+          <div class="about-wrap__con">
+            <h2 class="s-ttl__2">
+              About Us
+              <span>WithCodeについて</span>
+            </h2>
+            <p class="about-wrap__con__head">
+              Web制作会社が開発した<br>
+              実践的なカリキュラムで優秀な人材を輩出</p>
+            <p class="about-wrap__con__txt">
+              卒業後からWeb制作会社の案件を担当しながら稼ぐ環境を提供する
+              業界初のプログラミングスクールです。
+              <br><br>
+              超アウトプット型のカリキュラムを通じて、案件を担当できるレベルまで成長していただきます。</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="service" id="service">
+        <div class="service-wrap __inner">
+          <div class="service-wrap__ttl">
+            <h3 class="s-ttl__3">
+              <span>事業内容</span>
+              Service
+            </h3>
+          </div>
+          <div class="service-wrap__con">
+            <div class="service-wrap__con__block">
+              <div class="service-wrap__con__block__top __block__img1">
+                <span class="service-wrap__con__block__head">習得コース</span>
+                <b class="sevice-wrap__con__block__sub">￥49,800~(税込み)</b>
+              </div>
+              <p class="service-wrap__con__block__txt">「プログラミングの基礎を学ぶ」というコンセプトを掲げています。一人でもホームページを作成してみたいという方向けのコースです。</p>
+            </div>
+            <div class="service-wrap__con__block">
+              <div class="service-wrap__con__block__top __block__img2">
+                <span class="service-wrap__con__block__head">完全習得コース</span>
+                <b class="sevice-wrap__con__block__sub">￥230,000~(税込み)</b>
+              </div>
+              <p class="service-wrap__con__block__txt">「Web制作で必要なスキルを学ぶ」というコンセプトを掲げています。実際に案件を担当して稼いでいきたいという方向けのコースです。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="works" id="works">
+        <div class="works-wrap __inner">
+          <div class="works-wrap__ttl">
+            <h2 class="s-ttl__3">
+              <span>制作事例</span>
+              Works
+            </h2>
+          </div>
+          <div class="works-wrap__con">
+            <div class="works-wrap__con__block">
+              <span class="works-wrap__con__block__head">WithCode</span>
+            </div>
+            <div class="works-wrap__con__block">
+              <span class="works-wrap__con__block__head">WithCode</span>
+            </div>
+            <div class="works-wrap__con__block">
+              <span class="works-wrap__con__block__head">WithCode</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="voice" id="voice">
+        <div class="voice-wrap __inner">
+          <div class="voice-wrap__ttl">
+            <h2 class="s-ttl__3">
+              <span>受講生の声</span>
+              Voice
+            </h2>
+          </div>
+          <div class="voice-wrap__con">
+            <div class="voice-wrap__con__block">
+              <div class="voice-wrap__con__block __block__img3"></div>
+              <span class="voice-wrap__con__block__name">Sさん</span>
+              <p class="voice-wrap__con__block__msg">充実した内容でした。卒業テストも無事完了し、来年の4月からSEとして働く予定です。お世話になりました。</p>
+            </div>
+            <div class="voice-wrap__con__block">
+              <div class="voice-wrap__con__block __block__img4"></div>
+              <span class="voice-wrap__con__block__name">Mさん</span>
+              <p class="voice-wrap__con__block__msg">コスパがいいです。卒業テストも無事完了し、来年の4月からSEとして働く予定です。お世話になりました。</p>
+            </div>
+            <div class="voice-wrap__con__block">
+              <div class="voice-wrap__con__block __block__img5"></div>
+              <span class="voice-wrap__con__block__name">Rさん</span>
+              <p class="voice-wrap__con__block__msg">難しいです。卒業テストも無事完了し、来年の4月からSEとして働く予定です。お世話になりました。</p>       
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reasons" id="reasons">
+        <div class="reasons-wrap __inner">
+          <div class="reasons-wrap__ttl">
+            <h2 class="s-ttl__3">
+              <span>WithCodeが選ばれる理由</span>
+              Reasons
+            </h2>
+          </div>
+          <div class="reasons-wrap__con">
+            <ul class="reasons-wrap__con__list">
+              <li class="reasons-wrap__con__list__item"><b>業界最安級の学習教材</b>-xxxxxxxxxxxxxxxxxxx-
+              </li>
+              <li class="reasons-wrap__con__list__item"><b>実案件サポート</b> -xxxxxxxxxxxxxxxxxxx-</li>
+              <li class="reasons-wrap__con__list__item"><b>30分以内の質問回答</b> -xxxxxxxxxxxxxxxxxxx-</li>
+              <li class="reasons-wrap__con__list__item"><b>就職・転職サポート</b> -xxxxxxxxxxxxxxxxxxx-</li>
+              <li class="reasons-wrap__con__list__item"><b>アウトプット型の教材</b> -xxxxxxxxxxxxxxxxxxx-</li>
+              <li class="reasons-wrap__con__list__item"><b>WithCode Camp</b> -xxxxxxxxxxxxxxxxxxx-</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-wrap __inner">
+          <div class="contact-wrap__ttl">
+            <h2 class="s-ttl__3">
+              <span>お問い合わせ</span>
+              Contact
+            </h2>
+          </div>
+          <div class="contact-wrap__con">
+            <form class="contact-wrap__con__form" method="post">
+              <div class="contact-wrap__con__form__item">
+                <label for="name">氏名</label>
+                <input type="text" id="name" name="user_name">
+              </div>
+              <div class="contact-wrap__con__form__item">
+                <label for="mail">メールアドレス</label>
+                <input type="text" id="mail" name="user_mail">
+              </div>
+              <div class="contact-wrap__con__form__item">
+                <label for="tel">電話番号</label>
+                <input type="text" id="tel" name="user_tel">
+              </div>
+              <div class="contact-wrap__con__form__item">
+                <label for="msg">お問い合わせ内容</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </div>
+            </form>
+            <div class="contact-wrap__con__form__btn">
+              <button type="submit">送信する</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="footer-wrap">
+        <small class="footer-wrap__right">© 2023 WithCode All rights reserved.</small>
+      </div>
+
+    </footer>
+  </body>
+
+</html>
